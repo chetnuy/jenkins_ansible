@@ -1,0 +1,2 @@
+[web]
+machine ansible_host=192.168.123.11 ansible_python_interpreter=python3

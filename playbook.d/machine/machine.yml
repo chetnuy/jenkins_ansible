@@ -1,0 +1,12 @@
+---
+- hosts: machine
+  become: true
+  roles:
+   - geerlingguy.nginx
+   - geerlingguy.firewall
+  vars:
+   - nginx_worker_connections: "1022"
+   - nginx_keepalive_timeout: "33"
+   - firewall_allowed_tcp_ports:
+      - "22"
+      - "80"

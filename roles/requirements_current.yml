@@ -1,0 +1,4 @@
+- dev-sec.ssh-hardening, 7.0.0
+- geerlingguy.nginx, 2.7.0
+- geerlingguy.firewall, 2.4.2
+- dev-sec.os-hardening, 5.2.1

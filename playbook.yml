@@ -1,0 +1,6 @@
+---
+# Common basic install
+#- import_playbook: playbook.d/common/all.yml
+
+# Custom setting machine
+- import_playbook: playbook.d/machine/machine.yml

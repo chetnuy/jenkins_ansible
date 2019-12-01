@@ -1,0 +1,8 @@
+---
+# Приминиться эта секция, если нет group, host_vars, playbook
+firewall_allowed_tcp_ports:
+  - "3222"
+os_auth_pw_max_age: 160
+ufw_manage_defaults: true
+sysctl_overwrite:
+   net.ipv4.conf.all.arp_ignore: 0

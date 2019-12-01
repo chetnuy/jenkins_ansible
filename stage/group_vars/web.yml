@@ -1,0 +1,4 @@
+---
+nginx_keepalive_timeout: "77"
+firewall_allowed_tcp_ports:
+  - "333"
